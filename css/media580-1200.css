@@ -1,0 +1,75 @@
+@media (min-width: 581px) and (max-width: 1200px) {
+    .row{
+    margin: 0px; padding: 0px;
+}
+    #header-triangle{
+        display: none;
+    }
+    #navbar1 #contenu-bloc1, #navbar2 #contenu-bloc2{
+        display: none;
+    }
+    .menu-menu{
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        position: relative;
+        left: 10px;
+    }
+    #middel{
+        width: 150px;
+        margin: auto;
+    }
+    .visible a{
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-size: 1.4em;
+        border-bottom: 2px solid blue ;
+    }
+    .visible ul{
+        list-style-type: none;
+        text-align: center;
+    }
+    .visible ul, .visible li a{
+        border-color: #f5f5f5;
+        padding: 4px;
+    }
+    .visible{
+        position: absolute;
+        top: 359px;
+        background-color: white;
+        z-index: 2;
+        left: 122px;
+        text-transform: uppercase;
+    }
+    .visible2 a{
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-size: 1.4em;
+        border-bottom: 2px solid blue ;
+    }
+    .visible2 ul{
+        list-style-type: none;
+        text-align: center;
+        padding: 8px;
+    }
+    .visible2 ul, .visible2 li a{
+        border-color: #f5f5f5;
+        padding: 4px;
+    }
+    .visible2{
+        position: absolute;
+        top: 195px;
+        background-color: white;
+        z-index: 2;
+        left: 185px;
+    }
+    #boucher-trou{
+        display: none;
+    }
+    #angle{
+        position: relative;
+        top: -22px;
+    }
+}

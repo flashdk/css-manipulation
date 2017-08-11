@@ -1,0 +1,235 @@
+@media (max-width: 580px) {
+    .row{
+    margin: 0px; padding: 0px;
+}
+    #navbar1 #contenu-bloc1, #navbar2 #contenu-bloc2{
+        display: none;
+    }
+    #input-suscribe{
+        width: 150px;
+        height: 25px;
+        margin: 10px;
+    }
+    #input-bloc{
+         margin-top: 30px;
+        margin-left: 5px;
+         margin-bottom: 0px;
+     }
+    #btn{
+        width: 90px;
+        height: 25px;
+        margin: 10px;
+        font-size: 0.7em;
+    }
+    #hr{
+        width: 200px;
+    }
+    #middel{
+        width: 150px;
+        margin: auto;
+    }
+    .menu-menu{
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        position: relative;
+        left: 10px;
+    }
+
+    #baniere-img1, .baniere{
+        width: 300px;
+        height: 150px;
+        margin-left: 5px;
+    }
+    #baniere-img, .baniere{
+        width: 300px;
+        height: 150px;
+        margin-left: 5px;
+    }
+    #header-triangle{
+        position: relative;
+        left: 80px;
+        top: 140px;
+    }
+    .cercle{
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        background-color: white;
+        float: right;
+        margin-right: 25px;
+        border: 1px solid rgba(141, 168, 168, 0.38);
+        text-align: center;
+        position: relative;
+        top: -26px;
+    }
+    #mini-galery .img-galerie{
+        width: 280px;
+        height: 170px;
+        margin: 5px 0px;
+    }
+    #img-baniere2{
+        width: 300px;
+        height: 100px;
+        margin-top: 150px;
+    }
+    #fille{
+        width: 310px;
+    }
+    .accrocheur{
+        position: relative;
+        left: 50px;
+        top: -5px;
+        z-index: 3;
+    }
+
+    #paneau{
+        margin: 0px;
+        padding-top: 10px;
+        width: 260px;
+        background-color: #3f51b5;
+        color: white;
+        height: 50px;
+        text-align: center;
+        font-size: 0.8em;
+        border-radius: 8px;
+        -webkit-transform:skewY(-3deg);
+        position: relative;
+        left: 10px;
+        top: -15px;
+    }
+    .img-tab{
+        width: 30px;
+    }
+    #bloctableau1 .img-tab{
+        margin-left: 5px;
+    }
+
+    /*
+    menu compresser
+     */
+
+    .visible a{
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-size: 1.4em;
+        border-bottom: 2px solid blue ;
+    }
+    .visible ul{
+        list-style-type: none;
+        text-align: center;
+    }
+    .visible ul, .visible li a{
+        border-color: #f5f5f5;
+        padding: 4px;
+    }
+    .visible{
+        position: absolute;
+        top: 559px;
+        background-color: white;
+        z-index: 2;
+        left: 62px;
+        text-transform: uppercase;
+    }
+    .visible2 a{
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-size: 1.4em;
+        border-bottom: 2px solid blue ;
+    }
+    .visible2 ul{
+        list-style-type: none;
+        text-align: center;
+        padding: 8px;
+    }
+    .visible2 ul, .visible2 li a{
+        border-color: #f5f5f5;
+        padding: 4px;
+    }
+    .visible2{
+        position: absolute;
+        top: 395px;
+        background-color: white;
+        z-index: 2;
+        left: 62px;
+    }
+    #boucher-trou{
+        display: none;
+    }
+    #angle{
+        position: relative;
+        top: -22px;
+    }
+    #bouton-navigation{
+        display: none;
+    }
+    #create-acount{
+        height: 95px;
+        font-weight: bold;
+        font-size: 1.1em;
+        padding-top: 25px;
+        padding-left: 65px;
+        color: blue;
+        background-color: #f5f5f5;
+        width: 327px;
+        margin: auto;
+        position: relative;
+        left: -35px;
+    }
+    hr{
+        display: block;
+        background-color: #999999;
+        width: 205px;
+        position: relative;
+        left: -25px;
+    }
+   .mode-mini{
+        width: 269px;
+    }
+    .img-cadre, .cadreimg{
+        width: 274px;
+    }
+    .mini-triangle{
+        width: 276px;
+    }
+   .outline-img{
+       position: relative;
+       left: 134px;
+   }
+    .upcomming-img{
+        display: block;
+        width: 280px;
+        height: 250px;
+    }
+    .upcomming-info{
+        display: block;
+        position: relative;
+        width: 280px;
+        left: 0px;
+        top: 0px;
+    }
+    #bloctableau1 .bor-tab{
+        margin: 0px;
+        border-right: 1px solid black;
+    }
+    #bloctableau1 .bor-bas{
+        border-bottom: 1px solid black;
+    }
+    #bloctableau1 .bor-right{
+        border-right: none;
+    }
+    #bloctableau1 .img-tab{
+        margin-left: 0px;
+    }
+    .baniere2 span{
+        display: none;
+    }
+    .baniere2 .bg{
+        display: none;
+    }
+    .baniere .bg2{
+        display: none;
+    }
+}
